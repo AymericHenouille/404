@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .gradian {
+    @apply bg-gradient-to-r from-green-500 to-emerald-500 dark:from-green-400 dark:to-emerald-400;
+  }
+
+  .text-gradian {
+    @apply gradian bg-clip-text text-transparent;
+  }
+}
